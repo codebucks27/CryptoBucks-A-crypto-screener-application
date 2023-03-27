@@ -6,8 +6,8 @@
 
 This repository contains starter code for Crypto Screener Application in ReactJS. <br />
 
-View Demo👇: <br />
-https://crypto-bucks.netlify.app/ <br />
+For Demo and Final Code checkout following link👇: <br />
+[Crypto Screener Application in ReactJS](https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css) <br />
 
 If you want to learn how to create it please follow below tutorial👇: <br />
 https://youtu.be/JPlVb3t6kx8 <br />
