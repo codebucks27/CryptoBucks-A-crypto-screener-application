@@ -113,9 +113,10 @@ export const Prediction = () => {
         plugins: {
             legend: {
                 position: 'top',
+                align: 'end'
             },
             title: {
-                display: true,
+                display: false,
                 text: 'Chart.js Line Chart',
             },
         },
@@ -172,7 +173,7 @@ export const Prediction = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='w-full'>
                         {chartData && <Line options={options} data={chartData} />}
                     </div>
                 </div>
@@ -180,7 +181,7 @@ export const Prediction = () => {
 
 
                 <div className='p-5 mt-5  bg-white w-full rounded-[30px]'>
-                    <h2 className='text-[26px] font-bold text-zinc-700'>Reason for prediction</h2>
+                    <h2 className='text-[32px] font-bold text-zinc-700'>Reason for prediction</h2>
                     <p className='my-3'>Lorem ipsum dolor sit amet consectetur. A amet vel in auctor. In tempus et viverra mollis. Viverra quisque orci nec risus nisl proin duis. Lorem ac praesent consectetur duis.
                         Quam eget enim morbi arcu neque adipiscing nibh tortor laoreet. Quis enim vitae at nisi magna enim. Imperdiet neque sit porttitor odio iaculis. Sed congue pellentesque sit sit. Et ut tempus orci vitae feugiat dolor etiam. Mauris blandit amet vestibulum pellentesque euismod platea mauris neque curabitur. Viverra tellus fermentum velit tempor mattis sit integer. Quam dictum non eget bibendum. Eu accumsan tincidunt libero in integer eu elementum enim et.
                         Volutpat lectus fermentum egestas tempus pellentesque. Enim.</p>
@@ -191,12 +192,10 @@ export const Prediction = () => {
                 <div className='p-5 mt-5 w-full'>
                     <h2 className='text-[26px] font-bold'>Financial News</h2>
                     <div class="grid grid-cols-2 gap-3 mt-4">
-                        <div className='p-5 mt-5  bg-white w-full rounded-[30px]'>hello</div>
-                        <div className='p-5 mt-5  bg-white w-full rounded-[30px]'>hello</div>
-                    </div>
-                    <div class="grid grid-cols-2 gap-3">
-                        <div className='p-5 mt-5  bg-white w-full rounded-[30px]'>hello</div>
-                        <div className='p-5 mt-5  bg-white w-full rounded-[30px]'>hello</div>
+                        <div className='p-5 mt-2  bg-white w-full rounded-[30px]'>hello</div>
+                        <div className='p-5 mt-2  bg-white w-full rounded-[30px]'>hello</div>
+                        <div className='p-5 mt-2  bg-white w-full rounded-[30px]'>hello</div>
+                        <div className='p-5 mt-2  bg-white w-full rounded-[30px]'>hello</div>
                     </div>
                 </div>
 

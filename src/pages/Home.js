@@ -1,7 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Logo from '../components/Logo'
-import Navigation from '../components/Navigation'
 import { StockProvider } from '../context/StockContext'
 
 const Home = () => {

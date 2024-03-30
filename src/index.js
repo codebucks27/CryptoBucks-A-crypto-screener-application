@@ -9,8 +9,8 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import Stock from './pages/Stock';
-import Trending from './pages/Trending'
-import Details from './pages/Details';
+// import Trending from './pages/Trending'
+// import Details from './pages/Details';
 import { Prediction } from './pages/Prediction';
 
 const router = createBrowserRouter([
@@ -22,14 +22,14 @@ const router = createBrowserRouter([
         path: "/stock",
         element:<Stock />
       },
-      {
-        path: "/trending",
-        element:<Trending />
-      },
-      {
-        path:"/details",
-        element:<Details />
-      },
+      // {
+      //   path: "/trending",
+      //   element:<Trending />
+      // },
+      // {
+      //   path:"/details",
+      //   element:<Details />
+      // },
       {
         path:"/prediction",
         element:<Prediction/>
